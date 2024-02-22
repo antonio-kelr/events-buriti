@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-#containes {
-    margin-top: -150px;
-
+body {
+    background: #F0EEE9;
+    position: relative;
 
 }
 
-
+#containes {
+    margin-top: -150px;
+}
 
 .you-tube,
 .facebokk,
@@ -61,12 +63,13 @@
 #one-cont {
     position: absolute;
     top: 0;
-    right: 45px;
+    right: 8px;
     width: 72.9%;
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 5px 5px;
+
 
 }
 
@@ -106,9 +109,16 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 12px;
-    /* position: relative; */
+}
+
+#container {
+    position: relative;
+    padding: 50px;
+    padding-right: 20px;
 
 }
+
+
 
 .two {
     display: flex;
@@ -144,26 +154,27 @@
     outline: none;
     border: none;
     cursor: pointer;
+    background: #E8E8E8;
 }
+#div-input  {
+    width: 350px;
+}
+.form-control{
+    background:#E8E8E8 !important;
+    box-shadow:  none !important;
+
+}
+#div-input .input-group-text{
+    background:#E8E8E8 ;
+}
+
 
 .form input[type=button] {
     background: #505050;
     color: white;
     font-weight: bolder;
-
 }
 
-.form input[type=text]::placeholder {
-    position: absolute;
-    left: 25px;
-}
-
-.form i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 5px;
-}
 
 .texto {
     padding-left: 20px;
@@ -191,7 +202,7 @@
 
 .logo-vip h1 {
     color: #D84004;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bolder;
 
 }
@@ -230,6 +241,9 @@
         color: white;
         font-size: 12px;
     }
+    & i {
+        padding-right: 3px;
+    }
 }
 
 #nav-bar li:hover {
@@ -246,26 +260,21 @@
 
 #nav-bar ul {
     position: relative;
-
+    width: 100%;
+    max-width: 950px;
 }
 
 #nav-bar ul::before {
     content: "";
     height: 8px;
     background: #E31C80;
-    width: 935px;
+    width: 100%;
     top: 0;
     position: absolute;
     left: 0;
 
 }
 
-
-#container {
-    position: relative;
-
-
-}
 
 .img-logo {
     position: absolute;
@@ -1247,7 +1256,7 @@ body {
             padding: 0px 0.6rem;
             font-weight: bolder;
             background: linear-gradient(to bottom, #F0F0F0, #d4d2d2);
-            border: 1px solid #333;
+            border: 1px solid #333333;
         }
     }
 }
@@ -1256,6 +1265,7 @@ body {
     max-width: 1360px;
     margin: 0 auto;
     padding: 10px;
+
 
     & ul {
         display: flex;
@@ -1283,16 +1293,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    padding-top: 5px;
     margin-top: 40px;
 
 }
 
-body {
-    background: #F0EEE9;
-    position: relative;
-    height: 250vh;
-}
 
 
 .header-rodaPe div {
@@ -1302,7 +1306,9 @@ body {
 .roda-pe {
     max-width: 1360px;
     margin: 0 auto;
-    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1326,6 +1332,5 @@ body {
         display: block;
         font-family: 'Times New Roman', Times, serif;
     }
-
-
 }
+
