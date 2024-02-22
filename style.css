@@ -150,7 +150,7 @@ body {
 }
 
 #inputGroup {
-    width: 350px;
+    width: 400px;
 }
 
 #inputGroup input[type=text] {
@@ -159,7 +159,7 @@ body {
 }
 
 #inputGroup-sizing-sm {
-    background: #E8E8E8;
+    background: #E8E8E8 !important;
 }
 
 
