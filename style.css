@@ -156,17 +156,6 @@ body {
     cursor: pointer;
     background: #E8E8E8;
 }
-#div-input  {
-    width: 350px;
-}
-.form-control{
-    background:#E8E8E8 !important;
-    box-shadow:  none !important;
-
-}
-#div-input .input-group-text{
-    background:#E8E8E8 ;
-}
 
 
 .form input[type=button] {
