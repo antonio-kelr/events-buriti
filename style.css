@@ -12,6 +12,8 @@ body {
 
 #containes {
     margin-top: -150px;
+    overflow: hidden;
+
 }
 
 .you-tube,
@@ -140,11 +142,9 @@ body {
 }
 
 
-.form {
-    position: relative;
-}
 
 .form {
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -1719,7 +1719,7 @@ p {
 
     .forms {
         z-index: 999;
-        top: 37.2%;
+        top: 38%;
         left: 45%;
         transform: translate(-45%, -20%);
         height: 25px;
@@ -2060,6 +2060,7 @@ p {
     }
 
 
+
 }
 
 @media screen and (max-width: 582px) {
@@ -2083,7 +2084,6 @@ p {
     }
 
     .nav-rodaPe {
-        border: 1px solid red;
 
         & ul {
             flex-wrap: wrap;
@@ -2097,7 +2097,6 @@ p {
 
 
     #containes {
-        overflow: hidden;
         padding-left: 5px;
     }
 
@@ -2106,9 +2105,7 @@ p {
 
 @media screen and (max-width: 400px) {
     #containes {
-        overflow: hidden;
         padding: 5px;
-        
     }
 
     .text-ctt {
@@ -2229,8 +2226,28 @@ p {
 
     }
 
-    .proxima-gata{
+    .proxima-gata {
         width: auto;
-    
+
     }
+}
+
+@media screen and (max-width: 458px) {
+
+    .text-cobertura {
+        width: 100%;
+
+    }
+    /* .coberturas-logos {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 240px;
+    } */
+    
+
+
+
+
 }
