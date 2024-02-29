@@ -2107,7 +2107,8 @@ p {
 @media screen and (max-width: 400px) {
     #containes {
         overflow: hidden;
-        padding-left: 5px;
+        padding: 5px;
+        
     }
 
     .text-ctt {
