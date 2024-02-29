@@ -2246,6 +2246,24 @@ p {
         margin-left: 240px;
     } */
     
+    .nav-rodaPe {
+        padding-left: 0;
+
+        & ul {
+            line-height: 10px;
+             padding-left: 10px;
+
+        }
+    }
+    .roda-pe{
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .header-rodaPe{
+        height: 300px;
+    }
+
+    
 
 
 
