@@ -1169,6 +1169,13 @@ p {
 
 }
 
+ .logo-photo {
+
+    & span {
+        color: #8C8888;
+        font-weight: 500;
+    }
+ }
 .proxima-gata {
     position: absolute;
     bottom: 10px;
