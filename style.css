@@ -1709,6 +1709,10 @@ p {
         height: 50%;
     }
 
+    .carousel-item img {
+        height: 300px;
+    }
+
     #AGENDA {
         width: 100%;
     }
@@ -2012,11 +2016,8 @@ p {
         justify-content: center;
     }
 
-    .coberturas-logos {
-        flex-wrap: wrap;
-
-
-
+    .text-ctt {
+        display: none;
     }
 
     .textMais {
@@ -2039,6 +2040,25 @@ p {
         top: 2.6%;
     }
 
+    .img {
+        width: 380px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .academy1 {
+        flex-direction: column;
+
+        & img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
 
 }
 
@@ -2052,6 +2072,7 @@ p {
         padding-left: 10px;
     }
 
+
 }
 
 @media screen and (max-width: 991px) {
@@ -2062,15 +2083,153 @@ p {
     }
 
     .nav-rodaPe {
+        border: 1px solid red;
 
         & ul {
             flex-wrap: wrap;
         }
-        
+
+        & a {
+            font-size: 16px;
+        }
+
     }
-    #containes{
+
+
+    #containes {
         overflow: hidden;
+        padding-left: 5px;
     }
 
 
+}
+
+@media screen and (max-width: 400px) {
+    #containes {
+        overflow: hidden;
+        padding-left: 5px;
+    }
+
+    .text-ctt {
+        display: none;
+    }
+
+    .textMais {
+        padding: 2px;
+        width: 100%;
+
+
+        & span {
+            font-size: 15px;
+        }
+
+
+        & i {
+            font-size: 10px;
+        }
+    }
+
+    .coberturas-logos {
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 160px;
+
+    }
+
+
+    .side-bar {
+        top: 2.3%;
+    }
+
+    .nav-rodaPe {
+        & ul {
+            line-height: 10px;
+        }
+    }
+
+    .logo-cbc {
+        width: auto;
+
+        & img {
+            width: 180px;
+        }
+
+        & h3 {
+            font-size: 20px;
+        }
+    }
+
+    .out {
+
+        & img {
+            width: 190px;
+
+        }
+
+        & h3 {
+            font-size: 20px;
+        }
+    }
+
+    #anucio {
+        padding: 0;
+
+    }
+
+    .academy1 {
+        padding-bottom: 10px;
+
+    }
+
+    .gata {
+
+        & img {
+            width: 190px;
+        }
+
+        & h3 {
+            font-size: 20px;
+        }
+
+        & .linkMais {
+            width: 150px;
+        }
+
+
+    }
+
+    #butto-start {
+        width: 100%;
+        padding: 5;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & span {
+            font-size: 14px;
+        }
+
+        & i {
+            font-size: 12px;
+            padding: 2px;
+            width: 15px;
+            height: 16px;
+            text-align: center;
+
+        }
+
+        & a {
+            text-align: center;
+            display: flex;
+        }
+
+    }
+
+    .proxima-gata{
+        width: auto;
+    
+    }
 }
