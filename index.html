@@ -24,7 +24,7 @@
         <div class="row" id="navs">
             <div class="col-4"></div>
 
-            <div class="col" id="asCofg">
+            <div class="col">
                 <nav id="nav-bar">
                     <ul>
                         <li><a href="#coberturas"><i class="fa-solid fa-angles-right"></i> COBERTURAS</a></li>
@@ -37,9 +37,6 @@
                 </nav>
             </div>
         </div>
-
-
-
         <div class="container" id="container">
             <div class="d-flex" id="one-cont">
                 <div class="d-flex align-items-start p-1" id="infor">
@@ -95,20 +92,45 @@
                     <div class="div-evet">
                         <h2>O maior portal de eventos de Buriticupu-MA</h2>
                     </div>
+
                     <div class="form">
                         <div class="input-group input-group-sm mb-3" id="inputGroup">
                             <span class="input-group-text" id="inputGroup-sizing-sm">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </span>
-                            <input type="text" class="form-control" placeholder="encontre o que deseja..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                            <div class="icone-nav">
+                        </div>
+                            <input type="text" class="form-control" placeholder="encontre o que deseja..."
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                             <input type="button" value="BUSCAR">
-                          </div>
+                        </div>
                     </div>
+
+                    <div class="form-icon">
+                        <i class="fa-solid fa-bars fa-2xs"></i>
+
+                    </div>
+
                 </div>
             </div>
 
         </div>
     </header>
+    <div class="side-bar" id="navegacao">
+        <nav id="NAV-BAR">
+            <ul>
+                <li><a href="#coberturas"><i class="fa-solid fa-angles-right"></i> COBERTURAS</a></li>
+                <li><a href="#AGENDA"><i class="fa-solid fa-angles-right"></i> AGENDA</a></li>
+                <li><a href=""><i class="fa-solid fa-angles-right"></i> PROMOÇÕES</a></li>
+                <li><a href="#recados"> <i class="fa-solid fa-angles-right"></i> RECADOS</a></li>
+                <li><a href=""><i class="fa-solid fa-angles-right"></i> ANUCIE</a></li>
+                <li><a href=""><i class="fa-solid fa-angles-right"></i> FALE CONOSCO</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+
+
 
     <div class="container" id="containes">
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -189,8 +211,9 @@
                 </div>
             </div>
         </div>
-        <div class=" border" id="coberturas">
-            <div class="coberturas-logos ">
+
+        <div id="coberturas">
+            <div class="coberturas-logos">
                 <div class="logo-cbc">
                     <h3>COBERTURAS</h3>
                     <img src="img/desig-5.png" alt="">
@@ -204,7 +227,10 @@
 
                 <div class="text-ctt">
                     <i class="fa-solid fa-mobile-retro"></i>
-                    <span>contrate nossa equipe para fazer a cobertura do seu evendo: <span>(98)3072-2012</span> </span>
+                    <span class="contratar">contrate nossa equipe para fazer a cobertura do seu evento:
+                        <span>(98)3072-2012</span> </span>
+                    <span class="contratar-quie">contrate nossa equipe para fazer a cobertura do seu evento: <a
+                            href=""><i class="fa-brands fa-square-whatsapp"></i></a> </span>
                 </div>
 
             </div>
@@ -280,14 +306,14 @@
         </div>
 
         <div class="arow">
-            <div class="col-9" id="anucio">
+            <div class="col-9" id="anucio-carro">
                 <img src="img/desing-3.png" alt="">
             </div>
             <div class="col-3"></div>
         </div>
 
         <div class="row" id="pag-noticias">
-            <div class="col-8">
+            <div class="col-7 col-lg-7 col-md-12 col-sm-12" id="page">
                 <div id="noticias">
                     <div class="paid-out">
                         <h3>NOTÍCIAS</h3>
@@ -311,9 +337,11 @@
                                 <div class="text-buriti">
                                     <span>Brasil</span>
                                     <span>14/05/2012</span>
-                                    <h3>Em Buriticupu vocé já pode contar com uma academia completa que oferece loga.
+                                    <h3>Em Buriticupu vocé já pode contar com uma academia completa que oferece
+                                        loga.
                                     </h3>
-                                    <h3>O aumento da capacidade de concetração é apenas uma das vontagens dos exercicios
+                                    <h3>O aumento da capacidade de concetração é apenas uma das vontagens dos
+                                        exercicios
                                         e meditação realidos nas sessões de loga da academia Bolo de Ferro.</h3>
                                 </div>
                             </div>
@@ -337,163 +365,156 @@
                     </div>
 
                 </div>
-
-
-
             </div>
 
-            <div class="col-4" id="classificacao">
-                <div class="out">
-                    <h3>CLASSIFICADOS</h3>
-                    <img src="img/desig-5.png" alt="">
+            <div class=" col col-5 col-lg-5 col-md-12 col-sm-12" id="page">
+                <div id="noticias">
+                    <div class="out">
+                        <h3>CLASSIFICADOS</h3>
+                        <img src="img/desig-5.png" alt="">
 
-                    <div class="clikMore">
-                        <a href="https://www.youtube.com/">
-                            <i class="fa-solid fa-plus"></i>
-                        </a>
-                        <span> mais noticias</span>
-                    </div>
-                </div>
-                <div class="motos">
-                    <div>
-                        <svg height="25px" version="1.1" viewBox="0 0 36 36" width="50px">
-                            <use class="ytp-svg-shadow" xlink:href="#ytp-id-97"></use>
-                            <path class="ytp-svg-fill"
-                                d="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z" id="ytp-id-97">
-                            </path>
-                        </svg>
-                        <a href="">
-                            MOTOS
-                        </a>
-                    </div>
-                    <div class="cb300">
-                        <img src="img/desi-cb300.png" alt="">
-
-                        <div class="MotoHonda">
-                            <h2>Moto: Honda CB300 Hornet (2009)</h2>
-                            <h3>Moto completo, em perfeito estado de conservação. Perfeita para rodar na cidade,
-                                capacidade de 18 litros.Desing moderno.2anos de uso. Quer compra essa moto? <a
-                                    href="">clique aqui</a></h3>
+                        <div class="clikMore  hondacb300">
+                            <a href="https://www.youtube.com/">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                            <span> mais anucios</span>
                         </div>
-                        <div class="anucio">
-                            <button>CRIE O SEU ANÚCIO</button>
-                            <div class="oferta">
-                                <button>PRÓXIMA OFERTA</button>
-                                <i class="fa-solid fa-right-long"></i>
+                    </div>
+                    <div class="academy moto">
+                        <div class="academy1 cb300">
+                            <div>
+                                <div>
+                                    <a href="">
+                                        <i class="bi bi-play-fill"></i>
+                                        <span>MOTO</span>
+                                    </a>
+                                </div>
+                                <img src="img/desi-cb300.png" alt="">
                             </div>
 
+                            <div>
+                                <h3>MOTO:Honda CB300 Hornert (2009)</h3>
+                                <h6>Moto completa, em perfeita estado de conservação.Perfeita para rodar na
+                                    cidade,capacidade de 18litros. Quer compra essa moto? <a href="">clique aqui</a>
+                                </h6>
+                            </div>
+
+                            <div id="anucio">
+                                <button>CRIE O SEU ANÚCIO</button>
+                                <div id="oferta">
+                                    <button>PRÓXIMA OFERTA</button>
+                                    <i class="fa-solid fa-right-long"></i>
+                                </div>
+
+                            </div>
                         </div>
 
-
                     </div>
+
+
+
+
                 </div>
-
-
-
-
             </div>
 
+
         </div>
+
         <div class="arow">
             <div class="col-4 item1"></div>
             <div class="col-4 item1"></div>
             <div class="col-4 item1"></div>
         </div>
 
-        <div class="row" id="RECADOS">
-
-            <div class="col-3 IMG">
-                <div class="top-DJ top">
-                    <h3>TOP DJ</h3>
+        <div id="grid-colunas">
+            <div class="grid1 grids">
+                <div class="logo-photo TPO-DJ">
+                    <h3> TOP DJ</h3>
                     <img src="img/desig-5.png" alt="">
 
-                    <div class="clikMore">
+                    <div class="linkMais">
                         <a href="https://www.youtube.com/">
                             <i class="fa-solid fa-plus"></i>
                         </a>
-                        <span>DJS</span>
+                        <span> DJS</span>
                     </div>
                 </div>
-                <div class="djs js">
-                    <div>
-                        <img src="https://universoretro.com.br/wp-content/uploads/2021/07/oculos-eltonjohn.jpg" alt="">
-                    </div>
-                    <div>
-                        <span>Davi Guetta</span>
-                    </div>
 
+                <div class="imgDJ">
+                    <img src="https://universoretro.com.br/wp-content/uploads/2021/07/oculos-eltonjohn.jpg" alt="">
+                    <div class="david">
+                        <h6>David Guetta</h6>
+                    </div>
                     <div class="sobre">
-                        <span>Legal,sincera,divertida,Timida,<br>Sorridente,alergre,amiga...</span>
-
+                        <h6>Legal, sincera, divertida, Timida, Sorridente, alegre,amiga</h6>
                     </div>
-
-
                 </div>
+
+
+
             </div>
-            <div class="col IMG">
-                <div class="top-DJ gata">
+            <div class="grid2 grids">
+                <div class="logo-photo gata">
                     <h3>GATA BURITIVIP</h3>
                     <img src="img/desig-5.png" alt="">
 
-                    <div class="clikMore">
+                    <div class="linkMais">
                         <a href="https://www.youtube.com/">
                             <i class="fa-solid fa-plus"></i>
                         </a>
                         <span>mais gatas</span>
                     </div>
                 </div>
-                <div class="gataburiti js">
-                    <div class="imgGata">
+
+                <div class="imgDJ gata-img">
+                    <div>
                         <img src="https://tudocommoda.com/wp-content/uploads/2016/03/look-com-short-branco.jpg" alt="">
                     </div>
-                    <div class="icoGata">
-                        <div class="smile">
-                            <span>Daniela Saraiva</span>
-                            <span>Legal,sincera,divertida,Timida,<br>Sorridente,alergre,amiga...</span>
-                            <div class="conhecer">
-                                <button>
-                                    <svg version="1.1" viewBox="0 0 36 36">
-                                        <use class="ytp-svg-shadow" xlink:href="#ytp-id-97"></use>
-                                        <path class="ytp-svg-fill"
-                                            d="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z"
-                                            id="ytp-id-97">
-                                        </path>
-                                    </svg>
-                                    conheça a gata
-                                </button>
-                            </div>
-                        </div>
+                    <div class="img-icons">
                         <img src="img/msg-desig-4.png" alt="">
 
+                        <div class="selct-button">
+                            <h6>Daniela Saraiva</h6>
+                            <h6>Legal, sincera, divertida, Timida, Sorridente, alegre,amiga</h6>
+                            <button>
+                                <a href="">
+                                    <i class="bi bi-play-fill"></i>
+                                    <span>conheça a gata</span>
+                                </a>
+
+                            </button>
+                        </div>
+
                     </div>
-                    <div class="prxGata">
-                        <a href="">
-                            <span>Quer ser a próxima gata?</span>
-                        </a>
+                    <div class="proxima-gata">
+                        <span>Quer ser a próxima gata?</span>
                     </div>
+
                 </div>
 
 
+
             </div>
-            <div class="col IMG CDD">
-                <div class="top-DJ recados" id="recados">
+            <div class="grid3 grids">
+                <div class="logo-photo gata recado">
                     <h3>RECADOS</h3>
                     <img src="img/desig-5.png" alt="">
 
-                    <div class="clikMore">
+                    <div class="linkMais">
                         <a href="https://www.youtube.com/">
                             <i class="fa-solid fa-plus"></i>
                         </a>
                         <span>mais recados</span>
                     </div>
+
                 </div>
 
-                <div class="recado js">
-                    <div class="in">
+                <div id="recados">
+                    <div class="seta-bordas">
                         <span>DE:</span>
                         <h3>Helton ALves</h3>
                     </div>
-                    <div class="in spç">
+                    <div class="seta-bordas">
                         <span>PARA:</span>
                         <h3>Daniel SOusa</h3>
                     </div>
@@ -513,11 +534,10 @@
 
                 </div>
 
-
             </div>
 
-
         </div>
+
         <div class="arow">
             <div class="col-4 item1"></div>
             <div class="col-4 item1"></div>
@@ -545,7 +565,7 @@
                 <h1>buriti</h1>
                 <h3>𝓋𝒾𝓅</h3>
             </div>
-            <div>
+            <div class="text-rodaPe">
                 <span>Copyright 2012 BuritiVip-Todos os direitos reservados.</span>
                 <span>Nosso telefone: (99)9161-2367/8122-8082/8807-2316-Av
                     Ceará,N<sup>.</sup>1750,Centro,Buriticupu-MA</span>
