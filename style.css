@@ -24,31 +24,31 @@ body {
 
 .you-tube {
     width: 30px;
-    background: #CE0000;
-
+    height: 29px;
 
 }
 
 .you-tube img {
     width: 100%;
-    height: 28px;
+    height: 100%;
 }
 
 .facebokk {
     width: 30px;
+    height: 30%;
 
 }
 
 .facebokk img {
     width: 100%;
-
-
+    height: 100%;
 }
 
 .twiter {
     width: 30px;
+    height: 30px;
+
     display: flex;
-    height: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -61,6 +61,24 @@ body {
     text-decoration: none;
 }
 
+#imgs-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+
+}
+
+.pontos {
+    width: 15px;
+
+    & img {
+        width: 8px;
+
+    }
+}
+
+
 
 #one-cont {
     position: absolute;
@@ -70,7 +88,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 5px 5px;
+    padding-top: 2px;
 
 
 }
@@ -125,8 +143,9 @@ body {
 .two {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     width: 100%;
+    margin-top: -25px;
 }
 
 
@@ -175,10 +194,9 @@ body {
 
 .form input[type=button] {
     background: #505050;
-    color: white;
-    font-weight: bolder;
+    color: #B5B5B5;
+    font-size: 14px;
 }
-
 
 .texto {
     padding-left: 20px;
@@ -187,9 +205,7 @@ body {
 
 .logo-vip {
     width: 150px;
-    position: relative;
     height: 100px;
-    margin-top: -20px;
 }
 
 .logo-vip h3 {
@@ -240,12 +256,13 @@ body {
         height: 100%;
         gap: 20px;
         padding-left: 15px;
+        padding-top: 5px;
     }
 
     & a {
         text-decoration: none;
         color: white;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     & i {
@@ -269,6 +286,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 950px;
+
 }
 
 #nav-bar ul::before {
@@ -358,8 +376,24 @@ body {
     margin: 10px;
     border-radius: 5px;
 
+    & div:nth-child(1) {
+
+        & div:nth-child(1) {
+            color: #9FCAB1;
+
+        }
+
+        & div:nth-child(2) {
+            color: #246F43;
+            font-weight: bolder;
+        }
+    }
+
+
     & h5:first-child {
-        color: #13b657;
+        color: #246F43;
+        font-weight: bolder;
+
 
     }
 
@@ -379,8 +413,27 @@ body {
 
     & h5:first-child {
         color: #CE0000;
+        font-weight: bolder;
+
 
     }
+
+    & div:nth-child(1) {
+
+        & div:nth-child(1) {
+            color: #EF7979;
+
+        }
+
+        & div:nth-child(2) {
+            color: #EF7979;
+            font-weight: bolder;
+        }
+
+
+    }
+
+
 }
 
 .list h5 {
@@ -429,6 +482,18 @@ body {
     }
 
 
+}
+
+#imagems6 {
+    & i {
+        color: #333333;
+    }
+
+    & span {
+        font-weight: bolder;
+        color: #333333;
+
+    }
 }
 
 .buto1 {
@@ -524,19 +589,20 @@ body {
 }
 
 
-
 .textMais {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     border-radius: 10px;
-    background: #fffefe;
+    background: linear-gradient(to  bottom, #F7F7F7,#DFDEDE);
+    border-radius:  10px 0px 10px 10px;
     font-size: 15px;
     padding: 10px;
     gap: 10px;
     color: #8A8686;
     font-weight: 600;
+
 
 
     & a {
@@ -585,7 +651,7 @@ body {
     width: 300px;
     background: white;
     padding: 5px;
-    box-shadow: 5px -5px 5px 5px rgb(255, 255, 255);
+    box-shadow: 5px -5px 0px 3px #F6F6F6;
 
 
     & p {
@@ -599,7 +665,7 @@ p {
 }
 
 .data-fts {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
@@ -642,6 +708,7 @@ p {
 
 #imagems2 {
     background: linear-gradient(to bottom, #FF8F7A, #ffd770);
+
 
 }
 
@@ -746,8 +813,8 @@ p {
     align-items: center;
     height: 30px;
     padding: 0px 2%;
-    border-radius: 10px;
-    background: #fffefe;
+    background: linear-gradient(to  bottom, #F7F7F7,#DFDEDE);
+    border-radius:  10px 0px 10px 10px;
     font-size: 17px;
     cursor: pointer;
     gap: 10px;
@@ -825,7 +892,7 @@ p {
             & a {
                 color: red;
                 text-decoration: none;
-                font-weight: 500;
+                font-weight: bolder;
             }
 
         }
@@ -842,7 +909,8 @@ p {
 
         & h6 {
             font-size: 16px;
-            font-weight: bolder;
+            font-weight: 500;
+            color: black;
         }
 
         & a {
@@ -941,6 +1009,7 @@ p {
     & h3:nth-last-child(2) {
         color: #A6421F;
         font-size: 18px;
+        font-weight: bolder;
         margin-top: 10px;
     }
 
@@ -1050,8 +1119,8 @@ p {
 .linkMais {
     position: absolute;
     right: 5px;
-    background: #ffffff;
-    border-radius: 10px;
+    background: linear-gradient(to  bottom, #F7F7F7,#DFDEDE);
+    border-radius:  10px 0px 10px 10px;
     display: flex;
     align-items: center;
     width: 100px;
@@ -1169,13 +1238,14 @@ p {
 
 }
 
- .logo-photo {
+.logo-photo {
 
     & span {
         color: #8C8888;
         font-weight: 500;
     }
- }
+}
+
 .proxima-gata {
     position: absolute;
     bottom: 10px;
@@ -1275,7 +1345,7 @@ p {
 .seta-bordas {
     background: #F9F9F9;
     margin: 2px;
-    font-size: 14PX;
+    font-size: 15px;
     display: flex;
     align-items: center;
 
@@ -1285,18 +1355,20 @@ p {
         font-size: 16px;
         margin-left: 80px;
         color: #BF4848;
+        padding-top: 5px;
+
     }
 }
 
 .caixaDEevios {
     margin-top: 5px;
+    padding-top: 10px;
     padding-left: 10px;
 
 
     & h3 {
         font-size: 19px;
         font-weight: 400;
-        color: black;
     }
 
 }
@@ -1321,7 +1393,7 @@ p {
         padding: 10px;
         padding-top: 0;
         padding-bottom: 0;
-        border: 2px solid #8E8E8E;
+        border: 3px solid #8E8E8E;
         background: #EBEBEB;
         font-weight: 500;
 
@@ -1359,7 +1431,6 @@ p {
     max-width: 1360px;
     margin: 0 auto;
     padding-bottom: 5px;
-    padding-top: 0;
     padding-left: 30px;
     display: flex;
     align-items: center;
@@ -1367,10 +1438,11 @@ p {
     justify-content: left;
     gap: 20px;
 
+
 }
 
 .logo-rodaPE {
-    margin-top: 6px;
+    margin-top: 20px;
 
     & h1 {
         font-size: 45px;
@@ -1593,6 +1665,59 @@ p {
         }
     }
 
+    #one-cont {
+        width: 80%;
+    }
+
+    .div-evet {
+        & h2 {
+            font-size: 16px;
+        }
+
+    }
+    
+    .fotos-cobertura .img {
+        height: 100%;
+    }
+
+    .data-fts {
+        width: 80%;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+
+    }
+
+    .coberturas-logos {
+        margin-left: 200px;
+        gap: 5px;
+    }
+
+    .textMais {
+        font-size: 14px;
+        gap: 10px;
+        width: 180px;
+        z-index: 999;
+
+    }
+
+    .text-ctt {
+        gap: 5px;
+        font-size: 14px;
+
+        & span:nth-child(2) {
+            padding-bottom: 4px;
+        }
+
+        & span:nth-child(1) {
+            font-size: 14px;
+
+        }
+    }
+
+
+
+
+
 
 
 }
@@ -1639,55 +1764,6 @@ p {
 }
 
 
-@media screen and (max-width: 1198px) {
-    .div-evet {
-        & h2 {
-            font-size: 15px;
-        }
-
-    }
-
-    .fotos-cobertura .img {
-        height: 100%;
-    }
-
-    .data-fts {
-        width: 80%;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-
-    }
-
-    .coberturas-logos {
-        margin-left: 200px;
-        gap: 5px;
-    }
-
-    .textMais {
-        font-size: 14px;
-        gap: 10px;
-        width: 180px;
-        z-index: 999;
-
-    }
-
-    .text-ctt {
-        gap: 5px;
-        font-size: 14px;
-
-        & span:nth-child(2) {
-            padding-bottom: 4px;
-        }
-
-        & span:nth-child(1) {
-            font-size: 14px;
-
-        }
-    }
-
-
-
-}
 
 @media screen and (max-width: 995px) {
     #one-cont {
@@ -2066,6 +2142,34 @@ p {
         }
     }
 
+    #roda-pe {
+        height: auto;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .logo-rodaPE {
+        width: 100%;
+    }
+
+    .header-rodaPe {
+        height: auto;
+        padding-top: 10px;
+
+
+    }
+
+
+    .nav-rodaPe {
+
+        & ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+
+    }
+
 
 
 }
@@ -2245,6 +2349,7 @@ p {
         width: 100%;
 
     }
+
     /* .coberturas-logos {
         display: flex;
         gap: 15px;
@@ -2252,25 +2357,87 @@ p {
         margin-bottom: 10px;
         margin-left: 240px;
     } */
-    
+
     .nav-rodaPe {
         padding-left: 0;
 
         & ul {
             line-height: 10px;
-             padding-left: 10px;
+            padding-left: 10px;
 
         }
     }
-    .roda-pe{
+    #anucio-carro img{
+        height: 70px;
+    }
+
+    .roda-pe {
         padding-left: 10px;
         margin-top: 20px;
     }
-    .header-rodaPe{
-        height: 300px;
+
+    .header-rodaPe {
+
+        & img {
+            height: auto;
+
+        }
     }
+    #anucio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin-top: 40px;
+        border: 1px solid red;
+    
+    
+        & button {
+            font-size: 14px;
+            padding: 10px;
+            padding-top: 0;
+            padding-bottom: 0;
+            font-weight: 600;
+        }
+    
+    }
+    
+    #oferta {
+        display: flex;
+        align-items: center;
+        width: auto;
+        position: relative;
+        padding-right: 15px;
+        padding-top: 5px;
+        border: 1px solid red;
 
     
+    
+    
+        & button {
+            padding: 20px;
+            padding-top: 0;
+            padding-bottom: 0;
+            background: #606060;
+            border: none;
+            color: white;
+            z-index: 89;
+
+    
+        }
+    
+        & i {
+            position: absolute;
+            right: -3px;
+            font-size: 40px;
+            color: #606060;
+        }
+    
+    }
+    
+
+
+
 
 
 
